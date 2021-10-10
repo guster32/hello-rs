@@ -1,3 +1,6 @@
+use rand::prelude::*;
+
 fn main() {
-    println!("Hello, world!");
+    let x: u32 = random();
+    println!("Hello, world! x = {}", x);
 }
