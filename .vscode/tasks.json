@@ -39,6 +39,7 @@
           "SRC_DIR": "${workspaceFolder}",
           "TARGET_IP": "${config:ARCADIA_QEMU.TARGET_IP}",
           "TARGET_SCP_PORT": "${config:ARCADIA_QEMU.TARGET_SCP_PORT}",
+          "PROGRAM":"${config:ARCADIA_QEMU.PROGRAM}",
         }
       }
     },
@@ -55,6 +56,7 @@
           "SRC_DIR": "${workspaceFolder}",
           "TARGET_IP": "${config:ARCADIA_ODROIDXU4.TARGET_IP}",
           "TARGET_SCP_PORT": "${config:ARCADIA_ODROIDXU4.TARGET_SCP_PORT}",
+          "PROGRAM":"${config:ARCADIA_QEMU.PROGRAM}",
         }
       }
     },
